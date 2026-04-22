@@ -1,61 +1,128 @@
-📊 Data Analytics Project
-📌 Overview
-This project demonstrates an end-to-end data analytics workflow, starting from raw data processing to generating business insights. It includes data loading, exploratory data analysis (EDA), data cleaning, SQL-based analysis, and visualization through an interactive dashboard. The final insights are summarized in a report and presentation.
+# 📊 Data Analytics Project  
 
-📂 Dataset
-The dataset contains structured data relevant to business analysis.
-It includes multiple attributes such as categorical and numerical features.
-Data quality issues like missing values and inconsistencies were handled during preprocessing.
-🛠️ Tools & Technologies
-Python (Pandas, NumPy, Matplotlib, Seaborn)
-SQL (MS SQL Server)
-Power BI (for dashboard creation)
-Gamma (for presentation)
-Jupyter Notebook
-🔄 Project Workflow
-1. Data Loading
-Imported dataset using Python libraries.
-Verified structure, data types, and initial records.
-2. Exploratory Data Analysis (EDA)
-Analyzed distributions, correlations, and trends.
-Identified patterns and potential anomalies using visualizations.
-3. Data Cleaning
-Handled missing values and duplicates.
-Standardized formats and corrected inconsistencies.
-Prepared clean data for analysis.
-4. SQL Analysis
-Uploaded cleaned data to MS SQL Server.
-Executed queries for deeper insights and aggregations.
-Extracted meaningful business metrics.
-5. Dashboard Creation
-Built an interactive dashboard in Power BI.
-Included KPIs, charts, and filters for better usability.
-6. Reporting & Presentation
-Created a detailed report summarizing findings.
-Developed a presentation using Gamma to communicate insights effectively.
-📊 Dashboard Highlights
-Key performance indicators (KPIs)
-Trend analysis
-Category-wise breakdown
-Interactive filters for dynamic exploration
-✅ Results & Insights
-Identified key trends and patterns in the dataset.
-Provided actionable insights for decision-making.
-Improved data quality and usability through cleaning and transformation.
-▶️ How to Run
-Clone the repository
-git clone <your-repo-link>
-cd <project-folder>
-Install required Python libraries
+> 🚀 End-to-end data analytics project demonstrating data cleaning, SQL analysis, and interactive dashboarding using real-world workflows.
+
+---
+
+## 📌 Overview  
+This project showcases a complete **data analytics pipeline** — from raw data to actionable insights. It combines **Python, SQL, and Power BI** to analyze data and present meaningful business outcomes.
+
+---
+
+## 📂 Dataset  
+- Structured dataset with categorical & numerical features  
+- Includes missing values, duplicates, and inconsistencies  
+- Cleaned and prepared for accurate analysis  
+
+---
+
+## 🧰 Tech Stack  
+
+| Category        | Tools Used |
+|----------------|-----------|
+| 💻 Programming | Python (Pandas, NumPy) |
+| 📊 Visualization | Matplotlib, Seaborn |
+| 🗄️ Database | MS SQL Server |
+| 📈 BI Tool | Power BI |
+| 📑 Presentation | Gamma |
+| 🧪 Environment | Jupyter Notebook |
+
+---
+
+## 🔄 Workflow  
+
+### 📥 Data Loading  
+- Imported dataset using Python  
+- Checked structure, data types, and summary  
+
+### 🔍 Exploratory Data Analysis (EDA)  
+- Analyzed distributions and relationships  
+- Identified trends, patterns, and outliers  
+
+### 🧹 Data Cleaning  
+- Handled missing values and duplicates  
+- Standardized formats and fixed inconsistencies  
+
+### 🗄️ SQL Analysis  
+- Loaded data into MS SQL Server  
+- Wrote queries for KPIs and aggregations  
+
+### 📊 Dashboard Creation  
+- Built an interactive Power BI dashboard  
+- Designed charts and filters for better insights  
+
+### 📑 Reporting & Presentation  
+- Created a detailed report  
+- Developed a presentation using Gamma  
+
+---
+
+## 📊 Dashboard Preview  
+<img width="1481" height="797" alt="Screenshot 2026-04-22 104442" src="https://github.com/user-attachments/assets/89aece0a-cf3e-495c-bed6-551c38363b45" />
+
+
+---
+
+## 📈 Key Insights  
+- Identified important trends and patterns  
+- Generated actionable insights for decision-making  
+- Improved data quality through preprocessing  
+
+---
+
+## 📁 Project Structure  
+📦 data-analytics-project
+┣ 📂 data
+┣ 📂 notebooks
+┣ 📂 sql
+┣ 📂 dashboard
+┣ 📂 reports
+┣ 📜 README.md
+┗ 📜 requirements.txt
+
+---
+
+ ▶️ How to Run  
+
+### 1️⃣ Clone the repository  
+```bash
+git clone https://github.com/your-username/data-analytics-project.git
+cd data-analytics-project
+```
+
+### 2️⃣ Install dependencies
+```bash 
 pip install -r requirements.txt
-Run Jupyter Notebook
+```
+3️⃣ Run Jupyter Notebook
+```bash
 jupyter notebook
-Execute SQL scripts in MS SQL Server
-Open Power BI file (.pbix) to view the dashboard
-Review the report and presentation files
-📎 Project Deliverables
-Python notebooks/scripts
-SQL query files
-Power BI dashboard (.pbix)
-Final report (PDF/Doc)
-Presentation (Gamma/PPT)
+```
+
+4️⃣ Run SQL Queries
+ - Open MS SQL Server
+ - Execute scripts from /sql folder
+
+5️⃣ Open Dashboard
+ - Open .pbix file in Power BI
+
+📎 Deliverables
+ - 📓 Python notebooks
+ - 🗄️ SQL scripts
+ - 📊 Power BI dashboard
+ - 📑 Final report
+ - 📽️ Presentation (Gamma)
+
+🎯 Skills Demonstrated
+ - Data Cleaning & Preprocessing
+ - Exploratory Data Analysis (EDA)
+ - SQL Querying & Data Extraction
+ - Data Visualization & Dashboarding
+ - Data Storytelling
+
+⭐ If you like this project
+
+Give it a ⭐ on GitHub and feel free to connect!
+
+
+
