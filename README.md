@@ -71,6 +71,7 @@ This project showcases a complete **data analytics pipeline** — from raw data 
 ---
 
 ## 📁 Project Structure  
+```
 📦 data-analytics-project
 ┣ 📂 data
 ┣ 📂 notebooks
@@ -79,6 +80,7 @@ This project showcases a complete **data analytics pipeline** — from raw data 
 ┣ 📂 reports
 ┣ 📜 README.md
 ┗ 📜 requirements.txt
+```
 
 ---
 
